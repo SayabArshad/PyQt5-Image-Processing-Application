@@ -1,4 +1,3 @@
-````markdown
 # 🛡️ Personal Protective Equipment (PPE) Detector | Intelligent Safety Monitoring 🤖  
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python) 
@@ -42,7 +41,6 @@ git clone https://github.com/SayabArshad/Personal-Protective-Equipment-Detector.
 cd ppe-detector
 pip install -r requirements.txt
 
-````
 
 > ⚙️ **Note:** Download your YOLO model (e.g., `PPE.pt`) and update its path in the script.
 
