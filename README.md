@@ -1,67 +1,35 @@
-# 🎨 PyQt5 Image Processing Application
+```markdown
+# 🖼️ PyQt5 Image Processing Application | Powered by OpenCV ⚙️  
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![PyQt5](https://img.shields.io/badge/Framework-PyQt5-green?logo=qt) ![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-red?logo=opencv) ![License](https://img.shields.io/badge/License-MIT-yellow) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
 
-### An interactive image editing tool built with Python, PyQt5, and OpenCV
+🚀 The **PyQt5 Image Processing Application** is a professional desktop-based tool that integrates the elegance of **PyQt5 GUI** with the advanced capabilities of **OpenCV** to deliver a seamless and interactive image processing experience. Designed for both beginners and professionals, it enables real-time image manipulation, webcam feed preview, live drawing, and theme customization — all through a modern and intuitive interface.  
 
-![App Preview](https://media.giphy.com/media/llarwdtFqG63IlqUR1/giphy.gif)
+✨ **Key Features:** 🎞️ Real-time filters including blur, grayscale, sharpen, brightness, and contrast adjustments | ✏️ Drawing tools with adjustable brush size and color | 🔄 Undo / Redo functionality for controlled editing | 🌗 Light & Dark theme toggle for personalized experience | 📸 Webcam capture and live editing support | 🖱️ Drag & drop image loading for quick access | 🧩 Responsive PyQt5 interface with smooth user interaction.  
 
----
+🧠 **Tech Stack:**  
+- **Language:** Python 🐍  
+- **Framework:** PyQt5 🧩  
+- **Library:** OpenCV 🎥  
+- **IDE Recommended:** PyCharm / VS Code 💻  
 
-## 🧾 Table of Contents
-- [Overview](#-overview)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Screenshots](#-screenshots)
-- [Project Structure](#-project-structure)
-- [Future Enhancements](#-future-enhancements)
-- [Author](#-author)
-- [License](#-license)
+📁 **Project Structure:**  
+- `main.py` → Application entry point  
+- `assets/` → Contains interface preview images and icons  
+- `modules/` → Core logic for filters, drawing, and UI management  
 
----
+🧑‍💻 **Author:** [Your Name Here] 👨‍💻  
+💼 **Organization:** SoftDesk | DevelopersHub Corporation  
+📅 **Version:** 1.0.0  
+📜 **License:** MIT License  
 
-## 🧠 Overview
+🖼️ **Interface Preview:**  
+![Interface 1](assets/1.jpg)  
+![Interface 2](assets/2.jpg)  
+![Interface 3](assets/3.jpg)  
 
-The **PyQt5 Image Processing Application** is a desktop-based tool that combines the simplicity of **PyQt5 GUI** with the power of **OpenCV**.  
-It enables users to perform **real-time image processing**, apply filters, draw on images, toggle themes, and preview live camera feeds — all through an intuitive interface.
+💡 **About the Project:** This project showcases how PyQt5 and OpenCV can be combined to build an advanced desktop image editor that performs real-time operations on images with ease. It serves as a great learning resource for those diving into GUI development, computer vision, and Python-based desktop applications.  
 
----
+⭐ **Contributions:** Contributions are always welcome! Feel free to fork the repository, open issues, or submit pull requests. Don’t forget to give this project a ⭐ if you find it useful.  
 
-## ✨ Features
-
-- 🎞️ Real-time filters (blur, grayscale, sharpen, brightness, etc.)  
-- ✏️ Drawing tools (adjustable brush color and size)  
-- 🔄 Undo / Redo functionality  
-- 🌗 Light & Dark theme toggle  
-- 📸 Webcam capture and editing  
-- 🖱️ Drag & drop image loading  
-- 🧩 User-friendly PyQt5 interface  
-
----
-
-## 🧰 Tech Stack
-
-| Category | Technologies |
-|-----------|--------------|
-| **Language** | Python |
-| **GUI Framework** | PyQt5 |
-| **Image Processing** | OpenCV, NumPy |
-| **Utilities** | OS, Shutil |
-
----
-
-## ⚙️ Installation
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/SayabArshad/PyQt5-Image-Processing-Application.git
-cd PyQt5-Image-Processing-Application
-
-
-
-
-
-
-
-
-
+📧 **Contact:** For queries, suggestions, or collaboration opportunities, reach out via [your-email@example.com].  
+```
