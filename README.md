@@ -1,117 +1,74 @@
 
-# 🛡️ Personal Protective Equipment (PPE) Detector | Intelligent Safety Monitoring 🤖  
-![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python) ![Tkinter](https://img.shields.io/badge/Framework-Tkinter-orange?logo=python) ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-red?logo=opencv) ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-green?logo=ultralytics) ![License](https://img.shields.io/badge/License-MIT-yellow) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
+# 🖼️ PyQt5 Image Processing Application | Powered by OpenCV ⚙️  
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) 
+![PyQt5](https://img.shields.io/badge/Framework-PyQt5-green?logo=qt) 
+![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-red?logo=opencv) 
+![License](https://img.shields.io/badge/License-MIT-yellow) 
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
 
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/2936/2936757.png" alt="PPE Detector Logo" width="140"/>
-</p>
-
-🚀 The **Personal Protective Equipment (PPE) Detector** is an AI-powered desktop application built using **YOLOv8**, **OpenCV**, and **Tkinter** that automatically detects safety equipment such as **helmets, masks, and vests** in real time.  
-It ensures workplace safety by identifying compliance and violations, helping industries maintain safety standards efficiently.  
+🚀 The **PyQt5 Image Processing Application** is a professional desktop-based tool that seamlessly combines the simplicity of **PyQt5 GUI** with the powerful image processing capabilities of **OpenCV**.  
+This project empowers users to perform **real-time image manipulation**, apply filters, draw on images, toggle between light and dark themes, and preview live webcam feeds — all through an **intuitive, modern, and user-friendly interface**.  
 
 ---
 
 ## ✨ Key Features  
-🎥 **Live Detection** via webcam  
-📁 **Upload Photo/Video** for offline PPE analysis  
-🎛️ **Detection Modes:** All PPE, Helmets only 🪖, Masks only 😷, Vests only 🦺  
-✅ **Compliance & Violation Alerts** (e.g., Hardhat vs. NO-Hardhat)  
-🎨 **Color-coded Bounding Boxes** for easy visual differentiation  
-🔔 **Instant Safety Notifications** for violations  
-🧠 **YOLOv8 Smart Detection** for high-accuracy object recognition  
+🎞️ Real-time filters including **blur, grayscale, sharpen, brightness, and contrast adjustments**  
+✏️ **Drawing tools** with customizable brush size and color  
+🔄 **Undo / Redo** functionality for easy control  
+🌗 **Light & Dark theme toggle** for personalized experience  
+📸 **Webcam capture** and live editing  
+🖱️ **Drag & Drop image loading**  
+🧩 Smooth and responsive **PyQt5 interface**  
 
 ---
 
 ## 🧠 Tech Stack  
 - **Language:** Python 🐍  
-- **Framework:** Tkinter 🪟  
-- **Libraries:** OpenCV 🎥, cvzone 🔧, YOLOv8 🤖  
+- **Framework:** PyQt5 🧩  
+- **Library:** OpenCV 🎥  
 - **Recommended IDE:** PyCharm / VS Code 💻  
 
 ---
 
-## 📦 Installation  
-```bash
-git clone https://github.com/SayabArshad/Personal-Protective-Equipment-Detector.git
-cd ppe-detector
-pip install -r requirements.txt
-````
-
-> ⚙️ **Note:** Download your YOLO model (e.g., `PPE.pt`) and update its path in the script.
-
----
-
-## ▶️ Usage
-
-```bash
-python ppe_detector.py
+## 📁 Project Structure  
 ```
 
-🎬 **Live Detection** → Starts webcam monitoring
-📤 **Upload Mode** → Analyze images or videos offline
-⏹️ Press **q** to stop detection
+project/
+│-- main.py          # Main entry point of the application
+│-- assets/          # Contains interface preview images and icons
+│-- modules/         # Core logic for filters, drawing tools, and UI handling
 
----
-
-## 📁 Project Structure
-
-```
-ppe-detector/
-│-- ppe_detector.py     # Main script
-│-- requirements.txt    # Dependencies
-│-- README.md           # Documentation
-│-- PPE.pt              # YOLO model (user-provided)
-│-- assets/             # Interface images
-│    ├── 1.jpg
-│    ├── 2.jpg
-│    ├── 3.jpg
-│    ├── 4.jpg
 ```
 
 ---
 
-## 🖼️ Interface Previews
-
-|       🪄 Live Detection      |        🧠 Upload Mode        |
-| :--------------------------: | :--------------------------: |
-| ![Interface 1](assets/1.jpg) | ![Interface 2](assets/2.jpg) |
-
-|     ⚙️ Detection Results     |       🧰 Settings Panel      |
-| :--------------------------: | :--------------------------: |
-| ![Interface 3](assets/3.jpg) | ![Interface 4](assets/4.jpg) |
+## 🧑‍💻 Author  
+**Developed by:** [Sayab Arshad](https://github.com/SayabArshad) 👨‍💻  
+📅 **Version:** 1.0.0  
+📜 **License:** MIT License  
 
 ---
 
-## 💡 About the Project
-
-The **PPE Detector** leverages cutting-edge **AI object detection** with **YOLOv8** and **OpenCV** to identify safety gear in real-time environments.
-It is ideal for industrial, construction, and laboratory environments, ensuring compliance with workplace safety protocols.
-Built with a lightweight **Tkinter interface**, it provides smooth operation and instant feedback for both live and offline modes.
-
----
-
-## 🧑‍💻 Author
-
-**Developed by:** [Sayab Arshad Soduzai](https://github.com/SayabArshad) 👨‍💻
-📅 **Version:** 1.0.0
-📜 **License:** MIT License
+## 🖼️ Interface Previews  
+![Interface 1](assets/1.JPG)  
+![Interface 2](assets/2.JPG)  
+![Interface 3](assets/3.JPG)  
 
 ---
 
-## ⭐ Contributions
-
-Contributions are welcome! Fork the repository, open issues, or submit pull requests to improve the tool.
-If you find this project useful, don’t forget to ⭐ **star the repository** to show your support.
-
----
-
-## 📧 Contact
-
-For queries, collaborations, or feedback, reach out at **[sayabarshad789@gmail.com](mailto:sayabarshad789@gmail.com)**
+## 💡 About the Project  
+This application demonstrates the perfect blend of **GUI design** and **real-time image manipulation** using **OpenCV**, built to enhance user experience while providing full control over image editing operations.  
+It serves as an excellent learning and development project for those interested in **computer vision**, **desktop app development**, and **PyQt5 GUI programming**.  
 
 ---
 
-> 🦺 *Empowering safer workplaces through intelligent AI-based PPE monitoring.*
+## ⭐ Contributions  
+Contributions are always welcome!  
+You can **fork the repository**, **submit issues**, or **open pull requests** to enhance the functionality.  
+If you find this project helpful, please give it a ⭐ to show your support.  
 
-```
+---
+
+## 📧 Contact  
+For any inquiries, suggestions, or collaborations, feel free to reach out at **sayabarshad789@gmail.com**.  
 ```
