@@ -17,7 +17,6 @@
 - `modules/` → Core logic for filters, drawing tools, and UI handling  
 
 🧑‍💻 **Author:** [Sayab Arshad](https://github.com/SayabArshad) 👨‍💻  
-💼 **Organization:** SoftDesk | DevelopersHub Corporation  
 📅 **Version:** 1.0.0  
 📜 **License:** MIT License  
 
