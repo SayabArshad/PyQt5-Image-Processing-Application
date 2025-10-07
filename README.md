@@ -1,14 +1,9 @@
-# 🛡️ Personal Protective Equipment (PPE) Detector | Intelligent Safety Monitoring 🤖  
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python) 
-![Tkinter](https://img.shields.io/badge/Framework-Tkinter-orange?logo=python) 
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-red?logo=opencv) 
-![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-green?logo=ultralytics) 
-![License](https://img.shields.io/badge/License-MIT-yellow) 
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
+# 🛡️ Personal Protective Equipment (PPE) Detector | Intelligent Safety Monitoring 🤖  
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python) ![Tkinter](https://img.shields.io/badge/Framework-Tkinter-orange?logo=python) ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-red?logo=opencv) ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-green?logo=ultralytics) ![License](https://img.shields.io/badge/License-MIT-yellow) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
 
 <p align="center">
-  <img src="assets/logo.png" alt="PPE Detector Logo" width="140"/>
+  <img src="https://cdn-icons-png.flaticon.com/512/2936/2936757.png" alt="PPE Detector Logo" width="140"/>
 </p>
 
 🚀 The **Personal Protective Equipment (PPE) Detector** is an AI-powered desktop application built using **YOLOv8**, **OpenCV**, and **Tkinter** that automatically detects safety equipment such as **helmets, masks, and vests** in real time.  
@@ -17,13 +12,13 @@ It ensures workplace safety by identifying compliance and violations, helping in
 ---
 
 ## ✨ Key Features  
-- 🎥 **Live Detection** via webcam  
-- 📁 **Upload Photo/Video** for offline PPE analysis  
-- 🎛️ **Detection Modes:** All PPE, Helmets only 🪖, Masks only 😷, Vests only 🦺  
-- ✅ **Compliance & Violation Alerts** (e.g., Hardhat vs. NO-Hardhat)  
-- 🎨 **Color-coded Bounding Boxes** for easy visual differentiation  
-- 🔔 **Instant Safety Notifications** for violations  
-- 🧠 **YOLOv8 Smart Detection** for high-accuracy object recognition  
+🎥 **Live Detection** via webcam  
+📁 **Upload Photo/Video** for offline PPE analysis  
+🎛️ **Detection Modes:** All PPE, Helmets only 🪖, Masks only 😷, Vests only 🦺  
+✅ **Compliance & Violation Alerts** (e.g., Hardhat vs. NO-Hardhat)  
+🎨 **Color-coded Bounding Boxes** for easy visual differentiation  
+🔔 **Instant Safety Notifications** for violations  
+🧠 **YOLOv8 Smart Detection** for high-accuracy object recognition  
 
 ---
 
@@ -40,7 +35,7 @@ It ensures workplace safety by identifying compliance and violations, helping in
 git clone https://github.com/SayabArshad/Personal-Protective-Equipment-Detector.git
 cd ppe-detector
 pip install -r requirements.txt
-
+````
 
 > ⚙️ **Note:** Download your YOLO model (e.g., `PPE.pt`) and update its path in the script.
 
@@ -66,12 +61,11 @@ ppe-detector/
 │-- requirements.txt    # Dependencies
 │-- README.md           # Documentation
 │-- PPE.pt              # YOLO model (user-provided)
-│-- assets/             # Interface images & logo
+│-- assets/             # Interface images
 │    ├── 1.jpg
 │    ├── 2.jpg
 │    ├── 3.jpg
 │    ├── 4.jpg
-│    ├── logo.png
 ```
 
 ---
